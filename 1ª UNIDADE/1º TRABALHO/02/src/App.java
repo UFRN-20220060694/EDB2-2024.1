@@ -1,5 +1,6 @@
 import java.util.ArrayList;
-import algorithms.LinearSearch;
+
+import algorithms.BinarySearch;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -17,7 +18,7 @@ public class App {
         list.add(91);
         list.add(100);
 
-        int index = LinearSearch.search(list, 91);
+        int index = BinarySearch.search(list, 5);
         System.out.println(index);
     }
 }
