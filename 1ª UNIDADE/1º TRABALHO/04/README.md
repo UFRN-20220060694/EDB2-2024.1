@@ -1,18 +1,13 @@
-## Getting Started
+## Fibonacci complexidade do pior caso
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A complexidade no pior caso é O(n) = n, pois ele fará n iterações para realizar o somatório da sequência de fibonacci.
 
-## Folder Structure
+## Complexidade recursiva x iterativa
 
-The workspace contains two folders by default, where:
+O código da versão recursiva é muito mais simples, porém não é muito eficiente, onde cada chamada da função chama ela mesma recursivamente duas vezes, tendo uma complexidade de O(2^n) onde n é a posição passada como parâmetro.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Já a versão iterativa te uma complexidade de O(n) já que irá executar apenas n vezes sem recursão.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Forma recursiva mais eficiente
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Sim, é possível, podemos salvar a sequencia de fibonacci em uma estrutura de dados e sempre que a função for chamada só haverá calculo se o 'n' atual for maior que o anterior, mas a mesma abordagem pode ser realizada no algorítmo iterativo então não faz sentido usar isso com o algorítmo recursivo.

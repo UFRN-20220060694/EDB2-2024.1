@@ -1,18 +1,9 @@
-## Getting Started
+## Comparação de complexidade temporal das versões iterarivas e recursivas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A complexidade temporal de um algorítmo de busca binária é a mesma no pior caso
+T(log n) e no melhor caso T(1) quando olhamos para as duas versões do algorítimo, mas a recursiva tende a ser mais lenta devido a sobrecarga de memória.
 
-## Folder Structure
+## Comparação de complexidade temporal e espacial das versões iterarivas e recursivas
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Na versão recursiva a complexidade temporal é O(log n) e a espacial é O(log n).
+Na versão recursiva a complexidade temporal é O(log n) e a espacial é O(1) pois existe apenas uma única chamada da função.

@@ -1,18 +1,9 @@
-## Getting Started
+## Complexidade temporal no pior caso
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+No pior caso o método recursivo será chamado n vezes.
 
-## Folder Structure
+T(n) = n
 
-The workspace contains two folders by default, where:
+## Complexidade temporal no pior caso iterativo
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Sim em um algorítmo iterativo de uma busca sequencial a complexidade sem mantem T(n) = n.
