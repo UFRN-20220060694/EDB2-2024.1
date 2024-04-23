@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
-import algorithms.BinarySearch;
-
+import algorithms.SortCheck;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -19,7 +18,7 @@ public class App {
         list.add(91);
         list.add(100);
 
-        int index = BinarySearch.search(list, 5);
-        System.out.println(index);
+        boolean isSorted = SortCheck.check(list);
+        System.out.println(isSorted);
     }
 }
